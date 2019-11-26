@@ -1,2 +1,2 @@
-# DPI
-For dpi learning. In opencv c++ environment
+# DIP
+For DIP learning. In opencv c++ environment
