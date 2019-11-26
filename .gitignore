@@ -1,3 +1,7 @@
+# custom
+cmake-build-debug
+.idea
+
 # CMake
 CMakeLists.txt.user
 CMakeCache.txt
