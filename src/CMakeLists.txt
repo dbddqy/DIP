@@ -1,3 +1,5 @@
-ADD_EXECUTABLE(imageInterpolation imageInterpolation.cpp)
-
-
+add_executable(imageInterpolation imageInterpolation.cpp)
+add_executable(imageCalculation imageCalculation.cpp)
+add_executable(crop crop.cpp)
+add_executable(histogram histogram.cpp)
+add_executable(filters filters.cpp)
