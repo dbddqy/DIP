@@ -57,18 +57,19 @@ Mat bilinearInterpolation(Mat rawImage, float scaleFactor){
 int main()
 {
     clock_t start, end;
-    Mat myImage = imread("../../images/01.jpg");
+    Mat myImage = imread("../../images/piece06.jpg");
     cout << "size before scaling: " << myImage.size << endl;
 
     start = clock();
-    Mat newImage = bilinearInterpolation(myImage, 1.2);
-//    Mat newImage;
-//    resize(myImage, newImage, Size(360, 216), (0, 0), (0, 0), INTER_CUBIC);
+//    Mat newImage = bilinearInterpolation(myImage, 1.2);
+    Mat newImage;
+    resize(myImage, newImage, Size(1200, 900), (0, 0), (0, 0), INTER_CUBIC);
     end = clock();
     cout << "size after scaling: " << newImage.size << " time used: " << (double)(end-start)/CLOCKS_PER_SEC << endl;
 
     imshow("myImage", myImage);
     imshow("newImage", newImage);
+    imwrite("../../images/piece06_1200x900.jpg", newImage);
     waitKey(0);
     return 0;
 }

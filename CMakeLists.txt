@@ -14,5 +14,6 @@ target_link_libraries(imageCalculation ${OpenCV_LIBS})
 target_link_libraries(crop ${OpenCV_LIBS})
 target_link_libraries(histogram ${OpenCV_LIBS})
 target_link_libraries(filters ${OpenCV_LIBS})
+target_link_libraries(contour ${OpenCV_LIBS})
 
 target_link_libraries(filters Eigen3::Eigen)
