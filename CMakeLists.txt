@@ -15,5 +15,8 @@ target_link_libraries(crop ${OpenCV_LIBS})
 target_link_libraries(histogram ${OpenCV_LIBS})
 target_link_libraries(filters ${OpenCV_LIBS})
 target_link_libraries(contour ${OpenCV_LIBS})
+target_link_libraries(corner ${OpenCV_LIBS})
+target_link_libraries(hough_transform ${OpenCV_LIBS})
+target_link_libraries(thinning ${OpenCV_LIBS})
 
 target_link_libraries(filters Eigen3::Eigen)
