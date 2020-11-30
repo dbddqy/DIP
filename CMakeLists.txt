@@ -19,5 +19,6 @@ target_link_libraries(corner ${OpenCV_LIBS})
 target_link_libraries(hough_transform ${OpenCV_LIBS})
 target_link_libraries(thinning ${OpenCV_LIBS})
 target_link_libraries(imageFormats ${OpenCV_LIBS})
+target_link_libraries(regionGrow ${OpenCV_LIBS})
 
 target_link_libraries(filters Eigen3::Eigen)
